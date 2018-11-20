@@ -67,12 +67,14 @@ insert into 	POSLUZITELJ	(sifra,ime,prezime,web) values
 							(null,'Posluzitelj','Koric',1),
 							(null,'Posluzitelj','Peric',1),
 							(null,'Posluzitelj','Coric',1);
-							
+
+#1-3							
 insert into 	PRIJAVNICA	(sifra,datum,korisnik) values
 							(null,'2018-10-02',1),
 							(null,'2018-10-03',2),
 							(null,'2018-10-04',3);
 
+#1-3
 insert into 	OBJAVA		(sifra,naslov,datum,web,posluzitelj) values
 							(null,'Novosti','2018-03-03',1,1),
 							(null,'Obavijest','2018-03-10',1,1),

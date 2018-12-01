@@ -1,6 +1,7 @@
+# mysql -uedunova -pedunova --default_character_set=utf8 < D:\utakmica.sql
+
 drop database if exists utakmica;
 create database utakmica character set utf8 collate utf8_general_ci;
-# mysql -uedunova -pedunova --default_character_set=utf8 < D:\utakmica.sql
 use utakmica;
 
 create table stadion(
@@ -45,5 +46,5 @@ insert into igrac 	(sifra,ime,prezime,momcad) values
 					(null,'Igrac_8','Prezime_8',1);
 
 insert into stadion	(sifra,naziv,pocetak,domacin,gost) values
-					(null,'Gradski vrt','2018-10-10',1,1),
+					(null,'Gradski vrt','2018-10-10',1,2),
 					(null,'Maksimir','2018-10-20',2,3);
